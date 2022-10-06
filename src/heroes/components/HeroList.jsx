@@ -3,6 +3,8 @@ import { useMemo } from "react";
 import { HeroCard } from "./";
 import { getHeroesByPublisher } from "../helpers"
 
+/* A function that returns a div with a class name and a map function that returns a HeroCard
+component. */
 export const HeroList = ({ publisher }) => {
 
 const heroes = useMemo(() => getHeroesByPublisher( publisher ), [ publisher ]);

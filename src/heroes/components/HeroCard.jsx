@@ -1,5 +1,9 @@
 import { Link } from "react-router-dom";
 
+/**
+ * If the alter_ego is the same as the characters, then return an empty tag, otherwise return a
+ * paragraph tag with the characters.
+ */
 const CharactersByHero = ({ alter_ego, characters }) => {
     return (alter_ego === characters)
         ? <></>
