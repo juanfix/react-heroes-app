@@ -4,7 +4,7 @@ This project was generated with React JS 18.2.0. It renders a list of heroes.
 
 ## See a Demo
 
-You can view how this project is without download it on [Github Pages](https://juanfix.github.io/react-heroes-app/)
+You can view how this project is without download it on [Netlify](https://juanfix.github.io/react-heroes-app/)
 
 ## Development server
 
